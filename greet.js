@@ -1,18 +1,12 @@
 #!/usr/bin/env node
 'use strict';
 
-// Original Code from Class by Tyler "toastynerd"
-// module.exports = function(name){
-//   return 'hello ' + name;
-// };
-
-// Another version of the code using the longer-written version
+// Original version of the code inspired by Tyler
 // module.exports = {
 //   greet: function(name){
 //     return "hello " + name;
 //   }
 // };
-
 
 // CLI approach with help from Justin David's blog
 // http://justindavis.co/2014/11/16/running-node-modules-from-the-command-line/
@@ -21,9 +15,9 @@
 // we'll add module.parent to see if this module was required by another file
 //// (if not, then this method was called outside of a file, such as through the CL)
 
-(function(name){
-  var sayHello = exports.greet = {
-    greet: function(name){
+(function(name) {
+  var sayHello = module.exports = {
+    greet: function(name) {
       return "hello " + name;
     }
   };
@@ -32,5 +26,6 @@
     console.log( sayHello.greet(process.argv[2]) );
   }
 })();
+
 
 
