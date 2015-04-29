@@ -1,4 +1,4 @@
-## Week 1 Assignment 1 of CodeFellows JS DA
+## Week 1 Assignments 1 & 2 of CodeFellows JS DA
 
 Credit:
 Original Greeting Code from Class by Tyler (aka: "toastynerd")
@@ -14,3 +14,4 @@ Github had a great lesson on Sinon where the testing made sense
 http://js-lessons.github.io/js-tools-1-slides/#/15
 
 Andrew helped steer me away from the tedious process of stubbing out process.argv[2]with Sinon, and instead suggest simply setting its value directly in the test.
+
