@@ -1,0 +1,33 @@
+{
+  "name": "w1a1-clint",
+  "version": "0.1.0",
+  "description": "Week 1 assignment 1 (extended with assignment 2)",
+  "main": "greet.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/grunt-cli/bin/grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clintonjnelson/w1a1.git"
+  },
+  "keywords": [
+    "codefellows"
+  ],
+  "author": "clintonjnelson@live.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clintonjnelson/w1a1/issues"
+  },
+  "homepage": "https://github.com/clintonjnelson/w1a1",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-mocha-test": "^0.12.7",
+    "mocha": "^2.2.4"
+  }
+}
